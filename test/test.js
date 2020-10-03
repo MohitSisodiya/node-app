@@ -12,4 +12,3 @@ describe('GET /', function () {
         request(app).get('/').expect('hello world', done);
     });
 });
-
